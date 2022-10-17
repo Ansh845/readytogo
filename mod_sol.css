@@ -1,0 +1,343 @@
+* {
+    margin-top: 0%;
+}
+.classname
+{
+    color: black;
+    text-align: center;
+    font-size: 120px;
+    padding: 25px;
+    background-color: grey;
+    word-spacing: 5mm;
+    font-style: italic;
+    margin-bottom: 0mm;
+    
+}
+nav a{
+color: white;
+font-size: 25px;
+word-spacing: 1mm;
+margin: 1.25cm;
+padding: 3mm;
+padding-left: 0.25cm;
+padding-right: 0.25cm;
+padding-top: 0.25cm;
+padding-bottom: 0.25cm;
+
+}
+nav a:hover{
+    color: black;
+    background-color: lightgreen;
+    font-weight: bold;  
+}
+nav{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 1mm;
+}
+.animation{
+    color: rgb(8, 8, 8);
+    border: solid black 3mm;
+    background-color: rgb(196, 124, 124);
+    margin-right: 25cm;
+    animation: bouncing 6s infinite;
+    text-align: center;
+    margin-left: 25cm;
+    padding: 12px;
+    font-size: 50px;
+    border-radius: 50%;
+}
+@keyframes bouncing {
+    0%{
+        margin-left: 0px;
+       border-radius: 50%;
+       margin-top: 0%;
+       background-color: rgb(223, 223, 68);
+    }
+    25%{
+        border-radius: 0%;
+        background-color: white;
+    }
+    50%{
+        margin-right: 0px;
+        border-radius: 50%;
+        margin-left: 22cm;
+        margin-top: 0%;
+        background-color: rgb(206, 126, 112);
+        
+    }
+    75%{
+        border-radius: 0%;
+        background-color: white;
+    }
+  
+    100%{
+        margin-left: 0%;
+        border-radius: 50%;
+        margin-right: 22cm;
+        margin-top: 0%;
+        background-color: rgb(223, 223, 67);
+    }
+}
+footer{
+    background-color: black;
+    font-size: 6mm;
+    text-align: center;
+    margin-bottom: 0%;
+}
+.hello{
+    color: white;
+    padding-left: 1cm;
+    text-underline-offset: none;
+}
+.find{
+    color: white;
+}
+.note{
+    border: solid black 2mm;
+    margin-right: 8cm;
+    margin-left: 8cm;
+    text-align: center;
+    font-size: 40px;
+    background-color: seashell;
+    animation: ansh 6s infinite;
+}
+
+@keyframes ansh {
+    0%{
+        margin-right: 0px;
+       border-radius: 30%;
+       margin-top: 0%;
+       background-color: rgb(223, 223, 68);
+       margin-left: 22cm;
+    }
+    25%{
+        border-radius: 0%;
+        background-color: white;
+    }
+    50%{
+        margin-left: 0px;
+        border-radius: 30%;
+        margin-right: 22cm;
+        margin-top: 0%;
+        background-color: rgb(206, 126, 112);
+        
+    }
+    75%{
+        border-radius: 0%;
+        background-color: white;
+    }
+  
+    100%{
+        margin-right: 0%;
+        border-radius: 30%;
+        margin-left: 22cm;
+        margin-top: 0%;
+        background-color: rgb(223, 223, 67);
+    } }
+main{
+    border: solid 5px black;
+    margin-left: 6.5cm;
+    margin-right: 8cm;
+    padding: 10px;
+    background-color: rgb(132, 197, 160);
+    font-size: 20px;
+    width: 800px;
+    margin-bottom: 3cm;
+    border-radius: 6%;
+    transition:  background-color 0.5s, border-style 0.5s, border-color 0.5s, border-radius 0.5s;
+
+}
+main:hover{
+    border-radius: 15%;
+    background-color: wheat;
+    border: 10px dashed black;
+}
+.topic{
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    border: 3px black solid;
+    background-color: rgb(45, 185, 57);
+    margin-left: 4cm;
+    margin-right: 4cm;
+    padding: 5px;
+}
+.link
+{
+    color: rgb(63, 42, 155);
+    font-size: 30px;
+    margin-bottom: 5px;
+
+}
+.link:hover{
+    background-color: rgb(219, 241, 91);
+    padding: 10px;
+
+}
+body{
+    background-color: wheat;
+}
+@media screen and (max-width: 614px){
+    .classname {
+       color: rgb(253, 253, 253);
+       font-weight: 400;
+       text-shadow: 0.2cm 0.02cm 0.1cm black;
+       text-decoration: underline 2.5px black ;
+       text-underline-position:auto;
+       background-color: rgb(75, 18, 207);
+       text-align: center;
+       font-size: 60px;
+       margin-left: 0cm;
+       text-align: center;
+       margin-right: 0cm;
+       margin-bottom: 0cm;
+       width: 370px;
+ }
+ body{
+     background-color: wheat;
+     background-position: 0%;
+     margin: 0mm;
+     margin: 0%;
+ }
+ .animation{
+    font-size: 50px;
+    padding: 2mm;
+    text-shadow: 0.06cm 0.07cm 0.07cm;
+    box-shadow: 0.6cm 0.6cm 0.6cm;
+    
+}
+
+nav{
+    color: white;
+    margin-top: 0cm;
+    width: 420px;
+    
+    
+}
+.nav{
+    overflow: hidden;
+    font-size: 30px;
+    display:flex;
+    padding: 3px;
+    margin: 0%;
+    margin-left: 103px; 
+    text-align: center;
+    
+    
+}
+.nav:hover{
+    color: rgb(104, 10, 46);
+    background-color: skyblue;
+    border: 4px black solid;
+    border-radius: 25%;
+    padding: 4px;
+    margin-right: 5cm;
+    text-align: center;    
+}
+.heads{
+    margin-left: 2cm;
+    padding: 2mm;
+    font-size: 40px;
+    text-align: start;
+    margin-right: 2.5cm;
+    }
+    @keyframes bouncing {
+        0%{
+            margin-left: 0px;
+           border-radius: 30%;
+           margin-top: 0%;
+           margin-right: 4cm;
+           background-color: rgb(223, 223, 68);
+           padding: 1mm;
+           
+        }
+        25%{
+            border-radius: 0%;
+            background-color: white;
+            padding: 1mm;
+        }
+        50%{
+            margin-right: 0px;
+            border-radius: 30%;
+            margin-top: 0%;
+            margin-left: 4cm;
+            background-color: rgb(206, 126, 112);
+            padding: 1mm;
+            
+        }
+        75%{
+            border-radius: 0%;
+            background-color: white;
+            padding: 1mm;
+        }
+      
+        100%{
+            margin-left: 0%;
+            border-radius: 25%;
+            margin-right: 4cm;
+            margin-top: 0%;
+            background-color: rgb(223, 223, 67);
+            padding: 1mm;
+        }
+    }
+    .note{
+        font-size: 20px;
+        margin-right: 1cm;
+        animation: ansh 6s infinite;
+        box-shadow: 0.6cm 0.6cm 0.6cm;
+    }
+    
+    @keyframes ansh {
+        0%{
+            margin-right: 0px;
+            border-radius: 30%;
+            margin-top: 0%;
+            margin-left: 4cm;
+            background-color: rgb(206, 126, 112);
+            padding: 1mm;
+        }
+        25%{
+            border-radius: 0%;
+            background-color: white;
+        }
+        50%{
+            margin-left: 0px;
+            border-radius: 30%;
+            margin-top: 0%;
+            margin-right: 4cm;
+            background-color: rgb(223, 223, 68);
+            padding: 1mm;
+            
+        }
+        75%{
+            border-radius: 0%;
+            background-color: white;
+        }
+      
+        100%{
+            margin-right: 0px;
+            border-radius: 30%;
+            margin-top: 0%;
+            margin-left: 4cm;
+            background-color: rgb(206, 126, 112);
+            padding: 1mm;
+        } 
+}
+.box1{
+    margin-left: 2mm;
+    width: 370px;
+}
+.box2{
+    margin-left: 2mm;
+    width: 370px;
+}
+.topic{
+    margin-left: 2cm;
+    width: 200px;
+    margin-top: 0.5cm;
+    padding: 5mm;
+    box-shadow: 0.3cm 0.3cm 0.3cm;
+}
+}

@@ -1,0 +1,345 @@
+body{
+    margin: 2px;
+    background-color: wheat;
+    border-image-source: url(border1.jpg);
+}
+* {
+    margin-top: 0%;
+}
+.classname
+{
+    color: black;
+    text-align: center;
+    font-size: 120px;
+    padding: 25px;
+    background-color: grey;
+    word-spacing: 5mm;
+    font-style: italic;
+    margin-bottom: 0mm;
+    
+}
+nav a{
+color: white;
+font-size: 25px;
+word-spacing: 1mm;
+margin: 1.25cm;
+padding: 3mm;
+padding-left: 0.25cm;
+padding-right: 0.25cm;
+padding-top: 0.25cm;
+padding-bottom: 0.25cm;
+
+}
+nav a:hover{
+    color: black;
+    background-color: lightgreen;
+    font-weight: bold;  
+}
+nav{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 1mm;
+}
+.animation{
+    color: rgb(8, 8, 8);
+    border: solid black 3mm;
+    background-color: rgb(196, 124, 124);
+    margin-right: 25cm;
+    animation: bouncing 6s infinite;
+    text-align: center;
+    margin-left: 25cm;
+    padding: 12px;
+    font-size: 50px;
+    border-radius: 50%;
+}
+@keyframes bouncing {
+    0%{
+        margin-left: 0px;
+       border-radius: 50%;
+       margin-top: 0%;
+       background-color: rgb(223, 223, 68);
+    }
+    25%{
+        border-radius: 0%;
+        background-color: white;
+    }
+    50%{
+        margin-right: 0px;
+        border-radius: 50%;
+        margin-left: 22cm;
+        margin-top: 0%;
+        background-color: rgb(206, 126, 112);
+        
+    }
+    75%{
+        border-radius: 0%;
+        background-color: white;
+    }
+  
+    100%{
+        margin-left: 0%;
+        border-radius: 50%;
+        margin-right: 22cm;
+        margin-top: 0%;
+        background-color: rgb(223, 223, 67);
+    }
+}
+.note{
+    border: solid black 2mm;
+    margin-right: 8cm;
+    margin-left: 8cm;
+    text-align: center;
+    font-size: 40px;
+    background-color: seashell;
+    animation: ansh 6s infinite;
+}
+
+@keyframes ansh {
+    0%{
+        margin-right: 0px;
+       border-radius: 30%;
+       margin-top: 0%;
+       background-color: rgb(223, 223, 68);
+       margin-left: 22cm;
+    }
+    25%{
+        border-radius: 0%;
+        background-color: white;
+    }
+    50%{
+        margin-left: 0px;
+        border-radius: 30%;
+        margin-right: 22cm;
+        margin-top: 0%;
+        background-color: rgb(206, 126, 112);
+        
+    }
+    75%{
+        border-radius: 0%;
+        background-color: white;
+    }
+  
+    100%{
+        margin-right: 0%;
+        border-radius: 30%;
+        margin-left: 22cm;
+        margin-top: 0%;
+        background-color: rgb(223, 223, 67);
+    } }
+   
+    main
+    {
+        background-color: rgb(167, 136, 54);
+        border: solid black 8px;
+        font-size: 32px;
+        border-radius: 15%;
+        padding: 30px;
+        margin-left: 5cm;
+        margin-right: 5cm;
+        margin-bottom: 4cm;
+        transition: border-radius 0.5s, border 0.5s, background-color 0.6s;
+
+    }
+    main:hover{
+        border-radius: 20%;
+        border: dashed black 8px;
+        background-color: rgb(78, 110, 197);
+    }
+    .notes{
+        border: solid 3px black;
+        text-align: center;
+        margin-right: 8cm;
+        margin-left: 10cm;
+        margin-top: 1cm;
+        background-color: wheat;
+        margin-bottom: 3cm;
+        padding: 12px;
+        color: black;
+        font-weight: bold;
+        font-style: italic;
+    }
+    .work{
+        color: white;
+    }
+    a:hover{
+        background-color: red;
+        padding: 8px;
+        border: black solid 2px;
+        border-radius: 30%;
+    }
+    footer{
+        background-color: black;
+        font-size: 6mm;
+        text-align: center;
+        margin-bottom: 0%;
+    }
+    .hello{
+        color: white;
+        padding-left: 1cm;
+        text-underline-offset: none;
+    }
+    .find{
+        color: wheat;
+    }
+    @media screen and (max-width: 614px){
+        .classname {
+           color: rgb(253, 253, 253);
+           font-weight: 400;
+           text-shadow: 0.2cm 0.02cm 0.1cm black;
+           text-decoration: underline 2.5px black ;
+           text-underline-position:auto;
+           background-color: rgb(75, 18, 207);
+           text-align: center;
+           font-size: 60px;
+           margin-left: 0cm;
+           text-align: center;
+           margin-right: 0cm;
+           margin-bottom: 0cm;
+           width: 370px;
+     }
+     body{
+         background-color: wheat;
+         background-position: 0%;
+         margin: 0mm;
+         margin: 0%;
+     }
+     .animation{
+        font-size: 50px;
+        padding: 2mm;
+        text-shadow: 0.06cm 0.07cm 0.07cm;
+        box-shadow: 0.6cm 0.6cm 0.6cm;
+        
+    }
+    
+    nav{
+        color: white;
+        margin-top: 0cm;
+        width: 420px;
+        
+        
+    }
+    .nav{
+        overflow: hidden;
+        font-size: 30px;
+        display:flex;
+        padding: 3px;
+        margin: 0%;
+        margin-left: 103px; 
+        text-align: center;
+        
+        
+    }
+    .nav:hover{
+        color: rgb(104, 10, 46);
+        background-color: skyblue;
+        border: 4px black solid;
+        border-radius: 25%;
+        padding: 4px;
+        margin-right: 5cm;
+        text-align: center;    
+    }
+    .heads{
+        margin-left: 2cm;
+        padding: 2mm;
+        font-size: 40px;
+        text-align: start;
+        margin-right: 2.5cm;
+        margin-bottom: 0.5cm;
+        }
+        @keyframes bouncing {
+            0%{
+                margin-left: 0px;
+               border-radius: 30%;
+               margin-top: 0%;
+               margin-right: 4cm;
+               background-color: rgb(223, 223, 68);
+               padding: 1mm;
+               
+            }
+            25%{
+                border-radius: 0%;
+                background-color: white;
+                padding: 1mm;
+            }
+            50%{
+                margin-right: 0px;
+                border-radius: 30%;
+                margin-top: 0%;
+                margin-left: 4cm;
+                background-color: rgb(206, 126, 112);
+                padding: 1mm;
+                
+            }
+            75%{
+                border-radius: 0%;
+                background-color: white;
+                padding: 1mm;
+            }
+          
+            100%{
+                margin-left: 0%;
+                border-radius: 25%;
+                margin-right: 4cm;
+                margin-top: 0%;
+                background-color: rgb(223, 223, 67);
+                padding: 1mm;
+            }
+        }
+        .note{
+            font-size: 20px;
+            margin-right: 1cm;
+            animation: ansh 6s infinite;
+            margin-bottom: 2cm;
+            margin-top: 1cm;
+            box-shadow: 0.6cm 0.6cm 0.6cm;
+        }
+        
+        @keyframes ansh {
+            0%{
+                margin-right: 0px;
+                border-radius: 30%;
+                margin-top: 0%;
+                margin-left: 4cm;
+                background-color: rgb(206, 126, 112);
+                padding: 1mm;
+            }
+            25%{
+                border-radius: 0%;
+                background-color: white;
+            }
+            50%{
+                margin-left: 0px;
+                border-radius: 30%;
+                margin-top: 0%;
+                margin-right: 4cm;
+                background-color: rgb(223, 223, 68);
+                padding: 1mm;
+                
+            }
+            75%{
+                border-radius: 0%;
+                background-color: white;
+            }
+          
+            100%{
+                margin-right: 0px;
+                border-radius: 30%;
+                margin-top: 0%;
+                margin-left: 4cm;
+                background-color: rgb(206, 126, 112);
+                padding: 1mm;
+            } 
+    }
+    .main{
+        margin-left: 0.2cm;
+        width: 330px;
+        margin-right: 1mm;
+    }
+    .notes{
+        margin-left: 2cm;
+        width: 145px;
+        padding: 2mm;
+        box-shadow: 0.3cm 0.3cm 0.2cm black;
+    }
+}

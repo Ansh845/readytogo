@@ -1,0 +1,428 @@
+* {
+    margin-top: 0%;
+}
+.classname
+{
+    color: black;
+    text-align: center;
+    font-size: 80px;
+    padding: 45px;
+    background-color: grey;
+    word-spacing: 5mm;
+    font-style: italic;
+    margin-bottom: 0mm;
+    background-attachment: fixed;
+    
+}
+nav a{
+color: white;
+font-size: 25px;
+word-spacing: 1mm;
+margin: 1.25cm;
+padding: 3mm;
+padding-left: 0.25cm;
+padding-right: 0.25cm;
+padding-top: 0cm;
+padding-bottom: 0.25cm;
+margin-top: 0mm;
+
+
+}
+nav a:hover{
+    color: black;
+    background-color: lightgreen;
+    font-weight: bold;  
+}
+nav{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 1mm;
+}
+body{
+    background-color: wheat;
+}
+footer{
+    background-color: black;
+    font-size: 6mm;
+    text-align: center;
+    margin-bottom: 0%;
+    color: white;
+}
+.find{
+    color: white;
+    
+}
+.hello{
+    color: white;
+    word-spacing: 2mm;
+    margin-right: 4cm;
+}
+.hello:hover{
+    color: red;
+}
+
+a:hover{
+    background-color: greenyellow;
+    padding: 5px;
+}
+.animation{
+    color: rgb(8, 8, 8);
+    border: solid black 3mm;
+    background-color: rgb(196, 124, 124);
+    margin-right: 25cm;
+    animation: bouncing 6s infinite;
+    text-align: center;
+    margin-left: 25cm;
+    padding: 12px;
+    font-size: 50px;
+    border-radius: 50%;
+}
+@keyframes bouncing {
+    0%{
+        margin-left: 0px;
+       border-radius: 50%;
+       margin-top: 0%;
+       background-color: rgb(223, 223, 68);
+    }
+    25%{
+        border-radius: 0%;
+        background-color: white;
+    }
+    50%{
+        margin-right: 0px;
+        border-radius: 50%;
+        margin-left: 22cm;
+        margin-top: 0%;
+        background-color: rgb(197, 130, 85);
+        
+    }
+    75%{
+        border-radius: 0%;
+        background-color: white;
+    }
+  
+    100%{
+        margin-left: 0%;
+        border-radius: 50%;
+        margin-right: 22cm;
+        margin-top: 0%;
+        background-color: rgb(223, 223, 67);
+    } }
+.first1{
+    border: black solid 0.3cm;
+    background-color: rgb(197, 116, 116);
+    width: 1200px;
+    height: 900px;
+    margin-left: 1.5cm;
+    overflow: auto;
+    font-size: 30px;
+    border-radius: 8%;
+    transition: border-radius 0.45s, background-color 0.75s;
+}
+.first1:hover{
+    background-color: rgb(111, 224, 219);
+    border-radius: 18%;
+    border: dashed 0.3cm;
+}
+.first2{
+    border: black solid 0.3cm;
+    background-color: rgb(197, 116, 116);
+    width: 1200px;
+    height: 1000px;
+    margin-left: 1.5cm;
+    font-size: 30px;
+    margin-top: 3cm;
+    border-radius: 8%;
+    transition: border-radius 0.45s, background-color 0.75s;
+}
+.first2:hover{
+    background-color: rgb(111, 224, 219);
+    border-radius: 30%;
+    border: dashed 0.3cm;
+}
+.first3{
+    border: black solid 0.3cm;
+    background-color: rgb(197, 116, 116);
+    width: 1200px;
+    height: 1000px;
+    margin-left: 1.5cm;
+    border-radius: 8%;
+    font-size: 30px;
+    margin-top: 3cm;
+    transition: border-radius 0.45s, background-color 0.75s;
+}
+.first3:hover{
+    background-color: rgb(111, 224, 219);
+    border-radius: 30%;
+    border: dashed 0.3cm;
+}
+.first4{
+    border: black solid 0.3cm;
+    background-color: rgb(204, 175, 80);
+    width: 1200px;
+    height: 800px;
+    margin-left: 1.5cm;
+    font-size: 30px;
+    margin-top: 3cm;
+    border-radius: 8%;
+    transition: border-radius 0.45s, background-color 0.75s;
+    
+}
+.first4:hover{
+    background-color: rgb(111, 224, 219);
+    border-radius: 30%;
+    border: dashed 0.3cm;
+}
+.first5{
+    border: black solid 0.3cm;
+    background-color: rgb(204, 175, 80);
+    width: 1200px;
+    height: 1000px;
+    margin-left: 1.5cm;
+    overflow: auto;
+    font-size: 30px;
+    margin-top: 3cm;
+    border-radius: 8%;
+    transition: border-radius 0.45s, background-color 0.75s;
+}
+.first5:hover{
+    background-color: rgb(111, 224, 219);
+    border-radius: 30%;
+    border: dashed 0.3cm;
+}
+.first6{
+    border: black solid 0.3cm;
+    background-color: rgb(204, 175, 80);
+    width: 1200px;
+    height: 700px;
+    margin-left: 1.5cm;
+    border-radius: 8%;
+    font-size: 30px;
+    margin-top: 3cm;
+    transition: border-radius 0.45s, background-color 0.75s;
+}
+.first6:hover{
+    background-color: rgb(111, 224, 219);
+    border-radius: 30%;
+    border: dashed 0.3cm;
+}
+.heads, .heads3, .heads4{
+    font-size: 50px;
+    border: solid black 5px;
+    margin-top: 3mm;
+    background-color: white;
+    margin-bottom: 3cm;
+    font-style: italics;
+    text-align: center;
+    padding: 1%;
+    margin-right: 7.4cm;
+    margin-left: 7.4cm;
+    transition: background-color 0.75s, border-radius 0.65s;
+
+}
+.heads:hover{
+    background-color: rgb(221, 73, 81);
+    border-radius: 25%;
+}
+hr{
+    color: black;
+}
+.photo{
+    float: none;
+    margin-left: 10cm;
+    margin-top: 1cm;
+    width: 400px;
+    height: 200px;
+    border: solid green 2mm;
+    border-radius: 15%;
+    transition: border-radius 0.5s;
+}
+.photo:hover{
+    border-radius: 0%;
+}
+.rep:visited{
+    color: blue;
+}
+@media screen and (max-width: 614px){
+    .classname {
+       color: rgb(253, 253, 253);
+       font-weight: 400;
+       text-shadow: 0.2cm 0.02cm 0.1cm black;
+       text-decoration: underline 2.5px black ;
+       text-underline-position:auto;
+       background-color: rgb(75, 18, 207);
+       text-align: center;
+       font-size: 60px;
+       margin-left: 0cm;
+       text-align: center;
+       margin-right: 0cm;
+       margin-bottom: 0cm;
+       width: 370px;
+ }
+ body{
+     background-color: wheat;
+     background-position: 0%;
+     margin: 0mm;
+     margin: 0%;
+ }
+ .animation{
+    font-size: 110px;
+    text-shadow: 0.06cm 0.07cm 0.07cm;
+    
+}
+
+nav{
+    color: white;
+    margin-top: 0cm;
+    width: 460px;
+    
+    
+}
+.nav{
+    overflow: hidden;
+    font-size: 30px;
+    display:flex;
+    padding: 3px;
+    margin: 0%;
+    margin-left: 103px; 
+    text-align: center;
+    
+    
+}
+.nav:hover{
+    color: rgb(104, 10, 46);
+    background-color: skyblue;
+    border: 4px black solid;
+    border-radius: 25%;
+    padding: 4px;
+    margin-right: 5cm;
+    text-align: center;    
+}
+.first1{
+    width: 390px;
+    height: 1100px;
+    margin-left: 1mm;
+    border-radius: 10%;
+    border: black 6px solid;
+
+}
+.photo{
+    margin-left: 0.2cm;
+    width: 300px;
+}
+.first2{
+    width: 390px;
+    height: 1100px;
+    margin-left: 1mm;
+    border-radius: 10%;
+    border: black 6px solid;
+    overflow: auto;
+
+}
+.first3{
+    width: 390px;
+    height: 1080px;
+    margin-left: 1mm;
+    border-radius: 10%;
+    border: black 6px solid;
+    overflow: auto;
+
+}
+.first4{
+    width: 390px;
+    height: 800px;
+    margin-left: 1mm;
+    border-radius: 10%;
+    border: black 6px solid;
+    overflow: auto;
+
+}
+.first5{
+    width: 390px;
+    height: 800px;
+    margin-left: 1mm;
+    border-radius: 10%;
+    border: black 6px solid;
+    overflow: auto;
+
+}
+.first6{
+    width: 390px;
+    height: 800px;
+    margin-left: 1mm;
+    overflow: auto;
+    border-radius: 10%;
+    border: black 6px solid;
+
+}
+.animation{
+    font-size: 50px;
+    color: black;
+    padding: 0%;
+    border: black solid 0.2cm;
+    animation: bouncing 4s infinite;
+    box-shadow: 0.6cm 0.6cm 0.6cm;
+}
+.heads{
+margin-left: 2cm;
+padding: 2mm;
+font-size: 40px;
+text-align: start;
+margin-right: 2.5cm;
+}
+.heads3{
+    margin-left: 2cm;
+    padding: 2mm;
+    font-size: 40px;
+    text-align: start;
+    margin-right: 2cm;
+      
+}
+.heads4{
+    margin-left: 1.3cm;
+    padding: 2mm;
+    font-size: 40px;
+    text-align: start;
+    margin-right: 2cm;
+      
+}
+@keyframes bouncing {
+    0%{
+        margin-left: 0px;
+       border-radius: 30%;
+       margin-top: 0%;
+       margin-right: 4cm;
+       background-color: rgb(223, 223, 68);
+       padding: 1mm;
+    }
+    25%{
+        border-radius: 0%;
+        background-color: white;
+        padding: 1mm;
+    }
+    50%{
+        margin-right: 0px;
+        border-radius: 30%;
+        margin-top: 0%;
+        margin-left: 4cm;
+        background-color: rgb(206, 126, 112);
+        padding: 1mm;
+        
+    }
+    75%{
+        border-radius: 0%;
+        background-color: white;
+        padding: 1mm;
+    }
+  
+    100%{
+        margin-left: 0%;
+        border-radius: 25%;
+        margin-right: 4cm;
+        margin-top: 0%;
+        background-color: rgb(223, 223, 67);
+        padding: 1mm;
+    }
+}
+}
